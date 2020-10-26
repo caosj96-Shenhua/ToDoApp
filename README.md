@@ -1,1 +1,3 @@
-# assignment-6-cao-shij
+# Simple To Do App
+
+Access Here: https://to-do-app-shijun-cao.herokuapp.com/
