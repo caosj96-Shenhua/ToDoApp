@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Assignment 6",
+        "description": "The goal of this assignment is to learn about JavaScript",
+        "dueDate": "Wednesday, Oct 20th, 2020"
+    },
+    {
+        "title": "Midterm",
+        "description": "Midterm of class",
+        "dueDate": "Wednesday, Oct 27th, 2020"
+    },
+    {
+        "title": "This is a sample task",
+        "description": "This is desciprtion of a sample task, click Trash Button to delete this task",
+        "dueDate": "Thrusday, Oct 28th, 2020"
+    }
+]

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>To Do App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link href="dist/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1>My Todo List</h1>
+    </header>
+    <!-- Show Detail-->
+    <div class="detailContainer">
+        <div class="detail-contents">
+            <div class="closeDetail">+</div>
+            <ul id="detail" class="show_detail">
+            </ul>
+        </div>
+    </div>
+
+    <div class="todoBigContainer">
+        <button class="addBtn" id="toDoBtn">Add to do item</button>
+
+        <div id="item-container" class="todo-container">
+            <!--   <p id="item-result" class="show_item"></p> -->
+            <ul class="todo-list">
+            </ul>
+        </div>
+    </div>
+
+    <div class="bg-modal">
+        <div class="modal-contents">
+            <div class="close">+</div>
+            <form name="taskForm" onsubmit="return validateForm()">
+                <h3>Add Task</h3>
+                <label>Title</label>
+                <input type="text" name="titleName" placeholder="Title" id="title">
+                <label>Description</label>
+                <textarea id="description" name="subject" placeholder="Write something.."></textarea>
+                <label>Due Date</label>
+                <input type="datetime-local" id="dateTime" placeholder="Due Date">
+                <input type="button" value="Submit" id="addBtn" />
+            </form>
+        </div>
+    </div>
+
+
+    <script src="js/getToDo.js">
+    </script>
+    <script src="js/addToDo.js">
+    </script>
+
+
+</body>
+
+
+
+</html>
